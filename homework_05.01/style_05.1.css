@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:black;
+    box-sizing: border-box;
+    font-size: 65%;
+}
+@media (min-width: 1024px) {
+.background{
+    background-color: black;
+}
+.web{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    background-color: white;
+}
+.header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.page_name{
+    margin-left: 5vw;
+    font-size: 40px;
+    color: goldenrod;
+    text-align: center;
+    align-content: center;
+}
+.list_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+.btn-outline-secondary{
+    width: 7em !important;
+    height: 40% !important;
+    font-size: 15px  !important;
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    align-items: center !important;
+}
+.btn-outline-secondary:hover{
+    background-color: goldenrod !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-outline-secondary:active{
+    background-color: goldenrod !important;
+    color: white !important;
+    box-shadow: 2px !important;
+    transform: translatey(-2px) !important;
+}
+.picture{
+    display: flex;
+    justify-items: stretch ;
+    height: 70vh;
+    width: 100%;
+}
+.introduction{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    font-family: "roboto";
+}
+.text{
+    font-size: large;
+    text-align: center;
+    width: 70%;
+}
+.net_struc{
+    width: 100%;
+    display:grid;
+    gap: 3%;
+    grid-template: 
+    'cardx cardx cardx cardx'
+    'content content categories links'
+    'content content relate relate'
+    ;
+}
+.list_of_card{
+    height: 60vh;
+    width: 100%;
+    grid-area: cardx;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 24%;
+    display:flex !important;
+    flex-direction:column !important;
+    border: none !important;
+}
+.card-title{
+    font-size:large;
+}
+.card-text{
+    font-size: small;
+}
+.btn-primary{
+    color: white !important;
+    background-color: goldenrod !important;
+    font-size: large !important;
+    justify-self: flex-end !important;
+}
+.content{
+    margin-left: 2vw;
+    display:flex;
+    flex-direction: column;
+    width: 45vw;
+    grid-area: content;
+}
+.cards{
+    width:100% !important;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.card-title-main{
+    font-size: 2.5rem;
+}
+.link-text{
+    font-size: 20px;
+    color: goldenrod;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    grid-area: categories;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.links{
+    grid-area: links;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.relate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardz{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 32vh;
+    justify-content: space-around;
+}
+.card-bodys{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(https://as2.ftcdn.net/jpg/04/49/06/47/1000_F_449064766_SSRZiDJ0N341G9cISjoRMF6Ofrlf7V8G.jpg);
+    height: 60vh;
+    width: 100%;
+    margin-top: 15vh;
+}
+.free{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 20vw;
+}
+.copy_free{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 40vh;
+    width: 20vw;
+    font-size: 20px;
+    background-color: antiquewhite;
+    justify-content: center;
+    justify-items: center;
+}
+.footer_link{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 40vh;
+    width: 20vw;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.footer_pic{
+    display: grid;
+    grid-template: 
+    '1 2 3'
+    '4 5 6';
+    height:30vh;
+    width: 20vw;
+}
+}
